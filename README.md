@@ -1,2 +1,2 @@
-# service-symfony-console
-Symfony console service for Iceberg App
+# Symfony console service for Iceberg Application v2
+Symfony console service for Iceberg Application v2
