@@ -1,5 +1,5 @@
 {
-  "name": "iceberg2/service-symfony-sonsole",
+  "name": "iceberg2/service-symfony-console",
   "description": "Symfony console service for Iceberg Application v2",
   "homepage": "https://github.com/iceberg2/service-symfony-console",
   "type": "project",
