@@ -13,14 +13,20 @@
             "homepage": "http://www.articstudio.com"
         }
     ],
+    "provide": {
+        "iceberg2/iceberg-app": "^2.0"
+    },
     "require": {
         "php": ">=7.0.0",
-        "symfony/console": "^3.1",
-        "iceberg2/iceberg-app": "~1.0"
+        "symfony/console": "^3.2",
+        "illuminate/support": "^5.4"
+    },
+    "require-dev": {
+        "iceberg2/iceberg-app": "2.0.0-ALPHA2"
     },
     "autoload": {
         "psr-4": {
-            "IcebergServiceSymfonyConsole\\": "src/"
+            "Articstudio\\IcebergApp\\Service\\SymfonyConsole\\": "src/"
         }
     }
 }
