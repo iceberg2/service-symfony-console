@@ -22,7 +22,7 @@
         "illuminate/support": "^5.4"
     },
     "require-dev": {
-        "iceberg2/iceberg-app": "2.0.0-ALPHA2"
+        "iceberg2/iceberg-app": "2.0.0"
     },
     "autoload": {
         "psr-4": {
