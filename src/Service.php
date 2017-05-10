@@ -22,7 +22,7 @@ class Service extends AbstractService {
     }
 
     public function run() {
-        $this->setServiceApp()->run();
+        $this->getServiceApp()->run();
     }
 
     public function getServiceContainer() {
