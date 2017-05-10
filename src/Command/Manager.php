@@ -2,6 +2,7 @@
 
 namespace Articstudio\IcebergApp\Service\SymfonyConsole\Command;
 
+use Articstudio\IcebergApp\Support\Collection;
 use Symfony\Component\Console\Application as SymfonyConsoleApp;
 use Articstudio\IcebergApp\Service\SymfonyConsole\Exception\Command\NotFoundException;
 
@@ -9,7 +10,7 @@ class Manager {
 
     private $commands;
 
-    public function __construct(array $commands = []) {
+    public function __construct(Collection $commands) {
         $this->commands = $commands;
     }
 
