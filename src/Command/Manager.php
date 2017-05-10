@@ -2,7 +2,7 @@
 
 namespace Articstudio\IcebergApp\Service\SymfonyConsole\Command;
 
-use Articstudio\IcebergApp\Support\Collection;
+use Illuminate\Support\Collection;
 use Symfony\Component\Console\Application as SymfonyConsoleApp;
 use Articstudio\IcebergApp\Service\SymfonyConsole\Exception\Command\NotFoundException;
 
